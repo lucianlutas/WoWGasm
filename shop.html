@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <title>WoWGasm</title> <!--TITLE-->
+    </head>
+    <body>
+        
+        <img src="assets/effects.png" id="top-img">
+        
+        <div class="container">
+            
+            <div class="top-image">
+                <div id="logo-div">
+                    <a href="index.html"> <!--LOGO / GOTO HOME-->
+                        <img src="assets/LOGO.png" id="logo-top">
+                    </a>
+                </div>
+                <div id="body-div">
+                    <img src="assets/shape@1X.png" id="social-bg">   
+                    <img src="assets/Body_bg.png" id="body-div-bg">
+                    
+                    
+                    <!--SOCIALS BEGIN-->
+                        <a href="#youtube"> <!--YOUTUBE LINK-->
+                            <img src="assets/social/yt.png" id="soc-yt">
+                        </a>
+                        <a href="#facebook"> <!--FACEBOOK LINK-->
+                            <img src="assets/social/fb.png" id="soc-fb">
+                        </a>
+                        <a href="#twitter"> <!--TWITTER LINK-->
+                            <img src="assets/social/tw.png" id="soc-tw">
+                        </a>
+                    <!--SOCIALS END-->
+                    
+                    <img src="assets/Layer%20541%20copy%209.png" id="under-menu">
+                    
+                    <!--MENU BEGIN-->
+                        <a href="index.html"> <!--HOME LINK-->
+                            <img src="assets/menu/BTN_Home.png" id="btn-home">
+                        </a>
+                        <a href="#forum"> <!--FORUM LINK-->
+                            <img src="assets/menu/BTN_Forums.png" id="btn-forum">
+                        </a>
+                        <a href="#changelog"> <!--CHANGELOG LINK-->
+                            <img src="assets/menu/BTN_Changelog.png" id="btn-change">
+                        </a>
+                        <a href="#connect"> <!--CONNECT LINK-->
+                            <img src="assets/menu/BTN_Connect.png" id="btn-connect">
+                        </a>
+                        <a href="#login"> <!--LOGIN LINK-->
+                            <img src="assets/menu/BTN_Login.png" id="btn-login">
+                        </a>
+                        <a href="#register"> <!--REGISTER LINK-->
+                            <img src="assets/menu/BTN_Register.png" id="btn-register">
+                        </a>
+                    <!--MENU END-->
+                    
+                    <!--MEMBERSHIP BEGIN-->
+                        <img src="assets/shop/Membership.png" id="membership-bg-shop">
+                        <div id="membership-shop">
+                            <span id="welcome">Welcome, <span id="name">Foereaper</span></span><br /><br /><br /><br /><br />
+                            <span>Votes today<span id="member-right">0</span></span><br /><br />
+                            <span>Votes last 30 days<span id="member-right">12</span></span><br /><br />
+                            <span>Total votes<span id="member-right">30</span></span><br /><br />
+                            <span>Total Points<span id="member-right">3050</span></span><br /><br />
+                            
+                            <!--BUTTONS BEGIN-->
+                                <a href="#1" class="btn" id="btn-mem1"></a>
+                                <a href="#2" class="btn" id ="btn-mem2"></a>
+                            <!--BUTTONS END-->
+                        </div>
+                    <!--MEMBERSHIP END-->
+                    
+                    <!--REALM BEGIN-->
+                        <img src="assets/Realm%20Status.png" id="realm-bg-shop">
+                        <!--SERVER 1 BEGIN-->
+                        <div id="sv-1-shop">
+                            <div class="realm-title-shop">Wrath of the Lich Kind | <span class="realm-rates-shop">Blizzlike <img id="online-icon-shop" src="assets/online.png"></span></div> <!-- the img is the online/offline icon -->
+                            
+                            <div class="progress" id="prog-shop">
+                                
+                                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:50%"></div> <!--WIDTH is percentage of HORDE players-->
+                                <div class="progress-bar" role="progressbar" style="width:50%"></div> <!--WIDTH is percentage of ALLIANCE players-->
+                                
+                            </div>
+                            
+                            <div class="realm-players-shop">Online players | <span class="realm-online-shop">2301</span></div> <!--Online players-->
+                        </div>
+                        <!--SERVER 1 END-->
+                        
+                        <!--SERVER 2 BEGIN-->
+                         <div id="sv-2-shop">
+                            <div class="realm-title-shop">Second server | <span class="realm-rates-shop">High Rates <img id="online-icon-shop" src="assets/offline.png" ></span></div> <!-- the img is the online/offline icon -->
+                            
+                            <div class="progress" id="prog-shop">
+                                
+                                <div class="progress-bar progress-bar-danger" role="progressbar" style="width:0%"></div> <!--WIDTH is percentage of HORDE players-->
+                                <div class="progress-bar" role="progressbar" style="width:0%"></div> <!--WIDTH is percentage of ALLIANCE players-->
+                                
+                            </div>
+                            
+                            <div class="realm-players-shop">Online players | <span class="realm-online-shop">0</span></div> <!--Online players-->
+                        </div>
+                        <!--SERVER 2 END-->
+                    <!--REALM END-->
+                    
+                    <!--SHOP BEGIN-->
+                    <img src="assets/shop/Shop.png" style="width:590px; position: absolute; top: 110px; left:290px">
+                    <div id="shop" style="width:590px; position: absolute; top: 110px; left:290px">
+                        
+                        <!--LEFT BUTTONS BEGIN-->
+                        <div id="cat">
+                            <a href="#tabards" class="btn">Tabards</a><br>
+                            <a href="#titles" class="btn">Titles</a><br>
+                            <a href="#mounts" class="btn" id="btn-active">Mounts</a><br>
+                            <a href="#pets" class="btn">Pets</a><br>
+                            <a href="#packs" class="btn">Profession Packs</a><br>
+                            <a href="#patterns" class="btn">Patterns</a><br>
+                            <a href="#sets" class="btn">Item Sets</a><br>
+                            <a href="#misc" class="btn">Misc</a><br>
+                            <a href="#services" class="btn">Services</a><br>
+                            <a href="#buffs" class="btn">Buffs</a><br>
+                            <a href="#items" class="btn">Items</a>
+                        </div>
+                        <!--LEFT BUTTONS END-->
+                        
+                        <!--DROPDOWN BEGIN-->
+                        <div class="dropdown">
+                            <button class="dropbtn">All categories</button>
+                            <div class="dropdown-content">
+                                <a href="#">Catergory 1</a>
+                                <a href="#">Catergory 2</a>
+                                <a href="#">Catergory 3</a>
+                                <a href="#">Catergory 4</a>
+                            </div>
+                        </div>
+                        <!--DROPDOWN END-->
+                        
+                        <!--ITEMS BEGIN-->
+                        <div id="items-div">
+                            <div class="item-row" id="items-row"> <!--ROW 1-->
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon1.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Black War Bear</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon2.png" id="item-img" /> <!--Item Pic-->
+                                        <span id="item-name">Reins of the Bronze Drake</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon3.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Dark Riding Talbuk</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-row" id="items-row"> <!--ROW 2-->
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon1.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Black War Bear</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon2.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Bronze Drake</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon3.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Dark Riding Talbuk</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-row" id="items-row"> <!--ROW 3-->
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon1.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Black War Bear</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon2.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Bronze Drake</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon3.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Dark Riding Talbuk</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-row" id="items-row"> <!--ROW 4-->
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon1.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Black War Bear</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon2.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Bronze Drake</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="#item-link"> <!--Link to item-->
+                                        <img src="assets/shop/Item-img.png" id="item-img-bg" />
+                                        <img src="assets/shop/icon3.png" id="item-img" /> <!--Item pic-->
+                                        <span id="item-name">Reins of the Dark Riding Talbuk</span> <!--Item name-->
+                                        <span id="points">35 Points</span> <!--Item cost-->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--ITEMS END-->
+                        
+                        <!--PAGE BTNS BEGIN-->
+                        <div id="page-btns">
+                            <a href="#shop-pg1" class="btn" id="btn-pg-active">1</a>
+                            <a href="#shop-pg2" class="btn" id="btn-pg">2</a>
+                            <a href="#shop-pg3" class="btn" id="btn-pg">3</a>
+                            <a href="#shop-pg4" class="btn" id="btn-pg">4</a>
+                            <a href="#shop-pg5" class="btn" id="btn-pg">5</a>
+                        </div>
+                        <!--PAGE BTNS END-->
+                        
+                    </div>
+                    <!--SHOP END-->
+                    
+                    
+                    
+                    
+                    <!--FOOTER BEGIN-->
+                    <div id="div-footer">
+                        <img src="assets/LOGO_s.png" id="logo-bot">
+                        <span class="footer" id="copyright">All rights reserved <span class="footer-link">WoWGasm Reloaded</span></span> <!--Copyright-->
+                        <span class="footer" id="design-by">Website design created by <span class="footer-link"><a href="#sixyce">Sixyce.com</a></span></span> <!--sixyce-->
+                        <span class="footer" id="footer-menu"> <!--footer menu-->
+                            <a href="#home">Home</a>
+                             | 
+                            <a href="#forum">Forum</a>
+                             | 
+                            <a href="#changelog">Changelog</a>
+                             | 
+                            <a href="#connect">Connect</a>
+                             | 
+                            <a href="#login">Login</a>
+                             | 
+                            <a href="#register">Register</a>
+                        </span>
+                    </div>
+                    <!--FOOTER END-->
+                </div>
+                 
+            </div>
+           
+        </div>
+        
+        <div id="bot-img">
+            <img src="assets/c4d%20copy1.png">
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,826 @@
+
+body{
+    background: black;
+    font-family: Roboto;
+    height: 1000px;
+    
+}
+.body-div{
+    background: url("assets/Body_bg.png");
+    top: 400px;
+    position:absolute;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top-image img{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+h2{
+    color: #ffdca8;
+    font-family: Roboto;
+    font-size: 12pt;
+    overflow: hidden;
+}
+.article-news{
+    font-family: Roboto;
+    color: rgba(101, 112, 116, 255);
+    position: relative;
+    font-size: 10pt;
+    top: 15px; 
+    left: -20px; 
+    right:0px; 
+    bottom: 0px;
+    width:450px;
+    margin:auto;
+    overflow: hidden;
+}
+.article-news-meta{
+    font-family: Roboto;
+    color: rgba(101, 112, 116, 255);
+    position: relative;
+    font-size: 7pt;
+    top: -15px; 
+    left: 10px; 
+    right:0px; 
+    bottom: 0px;
+    overflow: hidden;
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    border-radius: 4px;
+    background: #252e32;
+    color: rgba(101, 112, 116, 255);
+    height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+    width:163px;
+    overflow: hidden;
+}
+
+input[type=checkbox]{
+    border: none;
+    border-radius: 4px;
+    background: #252e32;
+    color: rgba(101, 112, 116, 255);
+    height: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+    width:20px;
+    overflow: hidden;
+}
+button[type=submit]{
+    opacity: 0;
+    height: 30px;
+    position: relative;
+    left:50px;
+    top: 10px;
+    font-size: 10pt;
+    width:70px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.realm-title{
+    color: rgba(101, 112, 116, 255);
+    font-size: 9pt;
+    text-align: center;
+    position: relative;
+    left: -8px;
+    overflow: hidden;
+}
+.realm-rates{
+    color: #d5af8c;
+    font-size: 9pt;
+    overflow: hidden;
+}
+.realm-players{
+    color: rgba(101, 112, 116, 255);
+    font-size: 9pt;
+    position:relative;
+    left:-5px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+    top: 0px;
+    overflow: hidden;
+}
+.realm-online{
+    color: #d5af8c;
+    font-size: 9pt;
+    overflow: hidden;
+}
+.footer{
+    color: rgba(101, 112, 116, 255);
+    font-family: Roboto;
+    font-size: 9pt;
+}
+.footer a{
+    color: rgba(101, 112, 116, 255);
+    font-family: Roboto;
+    font-size: 10pt;
+}
+.footer-link, .footer-link a{
+        color: #ffdca8;
+    font-family: Roboto;
+    font-size: 9pt;
+}
+
+#top-img{
+    width: 1300px; 
+    position: absolute; 
+    top:0px; 
+    right: 0px; 
+    left: 0px; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#logo-div{
+    width: 700px; 
+    position: absolute; 
+    top: 0px;
+    right: 0px; 
+    left: 0px; 
+    margin: auto; 
+    height: 300px;
+}
+#logo-top{
+    width: 200px; 
+    position: relative; 
+    top:70px; 
+    float:right
+}
+#body-div{
+    width: 1400px; 
+    position: absolute; 
+    right: 0px; 
+    left: 0px; 
+    margin: auto; 
+    height:1200px; 
+    margin-top:300px; 
+    z-index: 1;
+    display:block;
+}
+#social-bg{
+    width: 15%; 
+    position: absolute; 
+    right: 23%
+}
+#body-div-bg{
+    width: 100%; 
+    top:7px; 
+    position: relative;
+}
+#soc-yt{
+    width: 4%; 
+    position: absolute; 
+    right: 32%; 
+    top: -12px;
+}
+#soc-fb{
+    width: 4%; 
+    position: absolute; 
+    right: 28.5%; 
+    top: -20px;
+}
+#soc-tw{
+    width: 4%; 
+    position: absolute; 
+    right: 24.9%; 
+    top: -12px;
+}
+#bar{
+    width: 56.2%; 
+    position: absolute; 
+    left: -25px; 
+    top: 65px;  
+    right: 0px;
+}
+#under-menu{
+    width: 56.2%; 
+    position: absolute; 
+    left: -25px; 
+    top: 50px;  
+    right: 0px;
+}
+
+#btn-home{
+    left: 23%; 
+    width: 9%; 
+    position: absolute;
+    top: 33px;
+}
+#btn-forum{
+    left: 31.5%;
+    width: 9%; 
+    position: absolute;
+    top: 33px;
+}
+#btn-change{
+    width: 9%; 
+    position: absolute; 
+    left: 40%; 
+    top: 33px;
+}
+#btn-connect{
+    width: 9%; 
+    position: absolute; 
+    left: 48.5%; 
+    top: 33px;
+}
+#btn-login{
+    width: 9%; 
+    position: absolute; 
+    left: 57%; 
+    top: 33px;
+}
+#btn-register{
+    width: 9%; 
+    position: absolute; 
+    left: 65.5%; 
+    top: 33px;
+}
+#underline{
+    width: 55%; 
+    position: absolute; 
+    left: 0; 
+    top: 63.5px; 
+    right: 0px;
+}
+#news-bg-1{
+    width: 40%; 
+    position: absolute; 
+    left: -245px; 
+    top: 380px; 
+    right: 0px;
+}
+#news-1{
+    position:relative; 
+    top: -810px; 
+    left: 312px; 
+    width:520px; 
+    height: 230px; 
+}
+#news-1-arrow{
+    width: 5%; 
+    position: relative; 
+    left: 93%; 
+    top: 30px; 
+    bottom: 0px; 
+    right: 0px;
+}
+#news-1 h2{
+    position: relative; 
+    top: -20px; 
+    left: 10px; 
+    right:0px; 
+    bottom: 0px;
+}
+#news-1-img{
+    width:21%; 
+    margin: 0px 20px 20px 0px; 
+    top: 8px;
+}
+#btn-read-1{
+    width: 23%; 
+    position: absolute; 
+    left: 120px; 
+    top: 260px; 
+    bottom: 0px; 
+    right: 0px; 
+    opacity: 0;
+}
+#news-bg-2{
+    width: 40%; 
+    position: absolute; 
+    left: -245px; 
+    top: 690px; 
+    right: 0px;
+}
+#news-2{
+    position:relative; 
+    top: -730px; 
+    left: 312px; 
+    width:520px; 
+    height: 230px;
+}
+#news-2-arrow{
+    width: 5%; 
+    position: relative; 
+    left: 93%; 
+    top: 30px; 
+    bottom: 0px; 
+    right: 0px;
+}
+#news-2 h2{
+    position: relative; 
+    top: -20px; 
+    left: 10px; 
+    right:0px; 
+    bottom: 0px;
+}
+#news-2-img{
+    width:21%; 
+    margin: 0px 20px 20px 0px; 
+    top: 8px;
+}
+#btn-read-2{
+    width: 23%; 
+    position: absolute; 
+    left: 120px; 
+    top: 260px; 
+    right: 0px; 
+    opacity:0;
+}
+#news-bg-3{
+    width: 39%; 
+    position: absolute; 
+    left: -230px; 
+    top: 1000px; 
+    right: 0px;
+}
+#news-3{
+    position:relative; 
+    top: -645px; 
+    left: 312px; 
+    width:520px; 
+    height: 230px;  
+}
+#news-3-arrow{
+    width: 5%; 
+    position: relative; 
+    left: 93%; 
+    top: 25px; 
+    bottom: 0px; 
+    right: 0px;
+}
+#news-3 h2{
+    position: relative; 
+    top: -20px; 
+    left: 10px; 
+    right:0px; 
+    bottom: 0px;
+}
+#membership-bg{
+    width: 23%; 
+    position: absolute; 
+    left: 620px; 
+    top: 405px; 
+    right: 0px;
+}
+#membership{
+    position:relative; 
+    left: 275px; 
+    top: -1415px; 
+    right: 0px; 
+    margin: auto; 
+    width:200px;
+}
+#login{
+    width:200px;
+}
+input[type=checkbox]{
+    position:relative; 
+    left:16px;
+}
+#remember{
+    color: rgba(101, 112, 116, 255); 
+    font-size:11pt;
+    position:relative; 
+    left:16px; 
+    top: -5px;
+}
+#create-acc{
+    font-style: italic; 
+    color: rgba(101, 112, 116, 255); 
+    position:relative; 
+    left:13px; 
+    top: -5px; 
+    text-decoration: none;
+}
+#realm-bg{
+    width: 23%; 
+    position: absolute; 
+    left: 620px; 
+    top: 660px; 
+    right: 0px;
+    background: rgba(0,0,0,0);
+}
+#sv-1{
+    position:relative; 
+    left: 865px; 
+    top: -1315px; 
+    right: 0px; 
+    width:200px;
+}
+#online-icon{
+    width: 7%; 
+    position:relative; 
+    top: 3px;
+}
+#prog{
+    width:89%; 
+    height: 5px; 
+    position: relative; 
+    top: 8px; 
+    left: 3px;
+    background: rgba(0,0,0,0);
+}
+#sv-2{
+    position:relative; 
+    left: 865px; 
+    top: -1290px; 
+    right: 0px; 
+    width:200px;
+}
+#div-footer{
+    position: absolute; 
+    left: 620px; 
+    top: 1230px; 
+    right: 0px;
+}
+#logo-bot{
+    width: 20%; 
+    left:300px;
+}
+#copyright{
+    position: absolute; 
+    left: -300px; 
+    top:10px;
+}
+#design-by{
+    position: absolute; 
+    left: -300px; 
+    top: 25px;
+}
+#footer-menu{
+    position: absolute; 
+    left: -50px; 
+    top: 17px;
+}
+#bot-img{
+    width: 1700px; 
+    position: absolute; 
+    top:600px; 
+    right: 0px; 
+    left: -110px; 
+    margin: 0 auto; 
+    z-index: -1;
+    overflow: hidden;
+}
+
+.btn {
+    background: #12161a;
+    background-image: -webkit-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -moz-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -ms-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -o-linear-gradient(top, #12161a, #0c0e11);
+    background-image: linear-gradient(to bottom, #12161a, #0c0e11);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: rgba(101, 112, 116, 255); 
+    font-size: 9pt;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 130px;
+}
+
+.btn:hover, .btn:active, #btn-active {
+    background: #225e6a;
+    background-image: -webkit-linear-gradient(top, #225e6a, #14383f);
+    background-image: -moz-linear-gradient(top, #225e6a, #14383f);
+    background-image: -ms-linear-gradient(top, #225e6a, #14383f);
+    background-image: -o-linear-gradient(top, #225e6a, #14383f);
+    background-image: linear-gradient(to bottom, #225e6a, #14383f);
+    text-decoration: none;
+    color: white;
+}
+#realm-bg-shop{
+    width: 20%; 
+    position: absolute; 
+    left: 620px; 
+    top: 370px; 
+    right: 0px;
+    background: rgba(0,0,0,0);
+}
+#sv-1-shop{
+    position:relative; 
+    left: 865px; 
+    top: -777px; 
+    right: 0px; 
+    width:200px;
+}
+.realm-title-shop{
+    color: rgba(101, 112, 116, 255);
+    font-size: 7pt;
+    text-align: center;
+    position: relative;
+    left: -3px;
+    overflow: hidden;
+}
+.realm-rates-shop{
+    color: #d5af8c;
+    font-size: 7pt;
+    overflow: hidden;
+}
+#online-icon-shop{
+    width: 5%; 
+    position:relative; 
+    top: 0px;
+}
+#prog-shop{
+    width:78%; 
+    height: 5px; 
+    position: relative; 
+    top: 14px; 
+    left: 21px;
+    background: rgba(0,0,0,0);
+}
+
+.realm-players-shop{
+    color: rgba(101, 112, 116, 255);
+    font-size: 7pt;
+    position:relative;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+    top: 0px;
+    overflow: hidden;
+}
+.realm-online-shop{
+    color: #d5af8c;
+    font-size: 7pt;
+    overflow: hidden;
+}
+
+#sv-2-shop{
+    position:relative; 
+    left: 865px; 
+    top: -756px; 
+    right: 0px; 
+    width:200px;
+}
+
+#membership-bg-shop{
+    width: 20%; 
+    position: absolute; 
+    left: 620px; 
+    top: 130px; 
+    right: 0px;
+    color: rgba(101, 112, 116, 255);
+}
+#cat{
+    position: absolute;
+    top:56px;
+    left: 22px;
+}
+.dropbtn {
+    background: #12161a;
+    background-image: -webkit-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -moz-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -ms-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -o-linear-gradient(top, #12161a, #0c0e11);
+    background-image: linear-gradient(to bottom, #12161a, #0c0e11);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #222324;
+    color: rgba(101, 112, 116, 255); 
+    font-size: 9pt;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px, 5px, 0px, 0px;
+    top:70px;
+    left: 175px;
+}
+
+.dropdown-content {
+    background: #12161a;
+    background-image: -webkit-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -moz-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -ms-linear-gradient(top, #12161a, #0c0e11);
+    background-image: -o-linear-gradient(top, #12161a, #0c0e11);
+    background-image: linear-gradient(to bottom, #12161a, #0c0e11);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: rgba(101, 112, 116, 255); 
+}
+
+.dropdown-content a {
+    color: rgba(101, 112, 116, 255); 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 9pt;
+}
+
+.dropdown-content a:hover {
+    background: #225e6a;
+    background-image: -webkit-linear-gradient(top, #225e6a, #14383f);
+    background-image: -moz-linear-gradient(top, #225e6a, #14383f);
+    background-image: -ms-linear-gradient(top, #225e6a, #14383f);
+    background-image: -o-linear-gradient(top, #225e6a, #14383f);
+    background-image: linear-gradient(to bottom, #225e6a, #14383f);
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5px, 5px, 0px, 0px;
+}
+
+.dropdown:hover .dropbtn {
+    background: #225e6a;
+    background-image: -webkit-linear-gradient(top, #225e6a, #14383f);
+    background-image: -moz-linear-gradient(top, #225e6a, #14383f);
+    background-image: -ms-linear-gradient(top, #225e6a, #14383f);
+    background-image: -o-linear-gradient(top, #225e6a, #14383f);
+    background-image: linear-gradient(to bottom, #225e6a, #14383f);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px, 5px, 0px, 0px;
+}
+
+#items-div{
+    width:400px; 
+    position: absolute; 
+    left:165px; 
+    top:120px;
+    color: rgba(101, 112, 116, 255); 
+    font-weight: 700;
+}
+#items-div a{
+    color: rgba(101, 112, 116, 255); 
+    text-decoration: none;
+    
+}
+#item-img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#item-name{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    max-width:150px;
+    height: 25px;
+    font-size: 9pt;
+    margin-top: -55px;
+}
+#points{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    text-align:center;
+    min-width:10px;
+    max-width: 100px;
+    background-color:#0a0c0e;
+    padding:5px;
+    border-width:2px;
+    border-color:#1c2328;
+    border-radius:5px;
+    color:rgba(101, 112, 116, 255);
+    font-size: 7pt;
+    margin-bottom: 20px;
+}
+#item-img{
+    width:50%;
+    top:-77px;
+}
+#btn-pg{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    padding-top: 1px;
+}
+#btn-pg-active{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    padding-top: 1px;
+    background: #225e6a;
+    background-image: -webkit-linear-gradient(top, #225e6a, #14383f);
+    background-image: -moz-linear-gradient(top, #225e6a, #14383f);
+    background-image: -ms-linear-gradient(top, #225e6a, #14383f);
+    background-image: -o-linear-gradient(top, #225e6a, #14383f);
+    background-image: linear-gradient(to bottom, #225e6a, #14383f);
+    text-decoration: none;
+    color: white;
+}
+#page-btns{
+    margin-top: 825px;
+    margin-right: 50px;
+    float: right;
+}
+#membership-shop{
+    width: 10.5%; 
+    position: absolute; 
+    left: 891px; 
+    top: 170px; 
+    right: 0px;
+    color: rgba(101, 112, 116, 255);
+    font-size: 8pt;
+}
+#welcome{
+    font-style: italic;
+}
+#name{
+    font-style: normal;
+    color: #d5af8c;
+}
+#member-right{
+    color: #d5af8c;
+    float: right;
+}
+#btn-mem1{
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+    opacity: 0;
+}
+#btn-mem2{
+    margin-top: 15px;
+    width: 60px;
+    margin-left: 22px;
+    height: 30px;
+    opacity: 0;
+}
+#slider{
+    position:absolute;
+    width:800px;
+    height:270px;
+    top: 100px;
+    left:-25px;
+    right: 0px;
+    margin: auto;
+}
+
+#sl-lb{
+    width: 6%; 
+    position: absolute; 
+    left: -800px; 
+    top: 10px; 
+    right: 0px;
+}
+#sl-rb{
+    width: 6%; 
+    position: absolute; 
+    left: 25px; 
+    top: 10px; 
+    right: -750px;
+}
+#sl-top-bar{
+    width: 160%; 
+    position: absolute; 
+    left: -240px; 
+    top: -35px; 
+    right: 0px; 
+    margin: auto;
+}
+#sl-bot-bar{
+    width: 160%; 
+    position: absolute; 
+    left: -240px; 
+    top: 210px; 
+    right: 0px; 
+    margin: auto;
+}
+#slide{
+    width: 94%; 
+    position: absolute; 
+    left: -18px; 
+    top: 25px; 
+    right: 0px;
+}
